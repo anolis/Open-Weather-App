@@ -3,9 +3,10 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 15px;
-  width: calc(75% - 100px);
-  min-height: 600px;
+  width: calc(90% - 100px);
   padding: 10px;
+  margin-bottom:100px;
+  text-align:left;
 }
 @media screen and (max-width: 760px) {
   .ae-container {
@@ -179,7 +180,7 @@ body {
 
 .ae-head {
   background-image: url(../img/aurora.jpg);
-  height: 400px;
+  height: 200px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -203,6 +204,7 @@ body {
   align-items: center;
   position: relative;
   color: aqua;
+  padding:20px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
